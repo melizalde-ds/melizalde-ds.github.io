@@ -1,0 +1,89 @@
+@font-face {
+    font-family: montserrat;
+    src: url(https://fonts.googleapis.com/css?family=Montserrat);
+}
+
+html {
+    background-color: #006248;
+}
+
+html.index {
+    background-color: white;
+}
+
+body {
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+header {
+    height: 5em;
+    background-color: #006248;
+    padding-top: 2em;
+    text-align: center;
+}
+
+div {
+    text-align: center;
+    padding: 10px;
+}
+
+
+h1 {
+    color: white;
+    margin-top: 0;
+    font-family: montserrat;
+}
+
+h1.question{
+    margin: 0%;
+}
+
+p.question {
+    background-color: white;
+    width: fit-content;
+    margin: auto;
+    border: solid 2em white;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    border: solid 3px white;
+    border-radius: 8px;
+}
+
+img.c3{
+    width: 50%;
+}
+
+img.c4{
+    width: 20%;
+}
+
+a {
+    border: 3px solid #006248;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 8px;
+}
+
+a:link {
+    background-color: #006248;
+    color: white;
+}
+
+a:visited {
+    background-color: #006248;
+    color: white;
+}
+
+a:hover {
+    background-color: white;
+    color: #006248;
+}
